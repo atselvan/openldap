@@ -1,0 +1,63 @@
+version: 1
+
+dn: ou=team1,ou=teams,dc=privatesquare,dc=in
+objectClass: top
+objectClass: organizationalUnit
+ou: team1
+
+dn: ou=users,dc=privatesquare,dc=in
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+cn: users
+sn: users
+ou: users
+
+dn: uid=user2,ou=users,dc=privatesquare,dc=in
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+cn: User
+sn: User
+mail: something@privatesquare.in
+uid: user2
+userPassword:: e1NIQX1Cdi9YZmRsSmZqNjRvdUlWS0lEMTduQXJGb0k9
+
+dn: ou=teams,dc=privatesquare,dc=in
+objectClass: top
+objectClass: organizationalUnit
+ou: teams
+
+dn: uid=user3,ou=users,dc=privatesquare,dc=in
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+cn: User
+sn: User
+mail: something@privatesquare.in
+uid: user3
+userPassword:: e1NIQX1Cdi9YZmRsSmZqNjRvdUlWS0lEMTduQXJGb0k9
+
+dn: uid=user1,ou=users,dc=privatesquare,dc=in
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+cn: User
+sn: User
+mail: something@privatesquare.in
+uid: user1
+userPassword:: e1NIQX1Cdi9YZmRsSmZqNjRvdUlWS0lEMTduQXJGb0k9
+
+dn: ou=team2,ou=teams,dc=privatesquare,dc=in
+objectClass: top
+objectClass: organizationalUnit
+ou: team2
+
+dn: dc=privatesquare,dc=in
+objectclass: top
+objectclass: domain
+dc: privatesquare
+

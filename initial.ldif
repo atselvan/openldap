@@ -1,0 +1,6 @@
+# Initial root entry for privatesquare.in
+
+dn: dc=privatesquare,dc=in
+objectClass: top
+objectClass: domain
+dc: privatesquare
