@@ -3,8 +3,9 @@
 # Builds the config db and the data db
 
 # Variables
-OPENLDAP_INSTALL_DIR=/Users/allanselvan/tools/openldap
+INSTALL_DIR=/appl/openldap
+DATA_DIR=/data/openldap
 
-rm -rf $OPENLDAP_INSTALL_DIR/etc/openldap/slapd.d/*
+rm -rf $INSTALL_DIR/etc/openldap/slapd.d/*
 
-rm -rf $OPENLDAP_INSTALL_DIR/var/openldap-data/*
+rm -rf $DATA_DIR

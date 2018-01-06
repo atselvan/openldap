@@ -3,6 +3,6 @@
 # Start Openldap
 
 # Variables
-OPENLDAP_INSTALL_DIR=/Users/allanselvan/tools/openldap
+INSTALL_DIR=/appl/openldap
 
-$OPENLDAP_INSTALL_DIR/libexec/slapd -h "ldap://ldap.privatesquare.in:10388"  -f $OPENLDAP_INSTALL_DIR/etc/openldap/slapd.conf
+$INSTALL_DIR/libexec/slapd -h "ldap://192.168.2.223:10389"  -f $INSTALL_DIR/etc/openldap/slapd.conf
